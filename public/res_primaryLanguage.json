@@ -1,0 +1,181 @@
+{
+  "basic_info": {
+    "description_header": "Welcome to my Website! Thanks for Visiting",
+    "description": "👋 I'm Bilal Elmohandes. 2024 Graduate. I'm a Software Engineer working with the top technologies like Python, TypeScript, Angular, React and Vue. What you are seeing now is my portfolio website. Keep scrolling to learn all about my experiences. But first get to know a little bit about me. \n I love trying new things, which include trying new food, traveling to new places, and doing activities which I know I'll never try again (cliff jumping!). But all in all, I love to expand my horizons as I believe that trying new things and seeing new places allows me to keep on learning which is invaluable! I'm also a big gamer 🎮 and super competitive in everything I do, so contact me if you're trying to get smoked as I'm always up for a challenge! \n I also love to volunteer and take leadership in causes that manne! In my last year at ASU, I was president of one of the largest student organizations at ASU, the MSA (Muslim Students Association), where I helped lead volunteer events for the homeless (which includes making and giving out hundreds of homeless care packages and helping fold and package hundreds of boxes of donated clothes for refugees internationally) and run extremely large social and educational events (200+ people!) to create and foster a welcoming environment for Muslims at ASU! In general, I always try my best to create welcoming communities for all types of people no matter what I'm apart of!",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "SketchUp For Web",
+      "startDate": "2023",
+      "description": "The SketchUp internship was an incredible opportunity where I rapidly grew my technical skills by working on impactful projects with an amazing team. 🛠️\n\nI contributed to the complete redesign of the SketchUp toolbar, making it more intuitive and user-friendly. The new toolbar as seen in the video above, allows the toolbar to be dynamic and customized for the user, cool stuff. 🖌️\n\nI also spearheaded the development of a new file management system, enhancing how users handle project files. This includes creating new projects, filtering by region, renaming, editing, and deleting files by using the Trimble Connect API, rather than users going into there to do all that, now they can do it in app! 📁\n\nAdditionally, I contributed to SketchUp Diffusion, improving rendering quality (see the cool designs diffusion can make, applying AI is so fun!), and restructured the internal file architecture, migrating from Soy to React, to create a more organized and scalable codebase. 📐🚀",
+      "images": [
+        "images/portfolio/sketchup/SketchUp-logo.png",
+        "https://storage.cloud.google.com/myassetsatm/SketchUp-Toolbar.mp4",
+        "https://storage.cloud.google.com/myassetsatm/SketchUp-FileSystem.mp4",
+        "images/portfolio/sketchup/SketchUp-Diffusion.gif"
+      ],
+      "url": "https://app.sketchup.com",
+      "technologies": [
+        {
+          "class": "devicon-vuejs-plain",
+          "name": "Vue"
+        },
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        },
+        {
+          "class": "devicon-cplusplus-plain",
+          "name": "C++"
+        }
+      ]
+    },
+    {
+      "title": "Audio Playback App for Coast Guard",
+      "startDate": "2024",
+      "description": "As part of the Ira A. Fulton Schools of Engineering at ASU, my team and I developed an enterprise-level service for the U.S. Coast Guard to play recorded audio via a web service at scale, ideal for live missions and radio communications. 🚢\n\nI specifically led the frontend development, building a fast and responsive UI using React, TypeScript, and Vite. 🎨\n\nKey Features:\n- Secure AWS Environment: Followed DevSecOps practices, ensuring security throughout the development lifecycle.\n- Scalable Audio Playback Server: Managed high volumes of users with functions like upload, delete, pause, and filter. 🔊\n- Modern UI/UX Web App: Optimized workflow for operators, combining efficiency and usability.\n\nResults:\n- Delivered a full-stack media application with a React/TypeScript frontend and Python backend.\n- Architected scalable AWS infrastructure using Lambda, EC2, S3, Cloudwatch, DynamoDB, and VPC. ☁️\n- Achieved 86%+ test coverage with robust code, unit tests, and documentation. 🧪\n\nIt was an amazing experience to build an application from scratch while mastering cloud architecture, full-stack development, and DevSecOps. Big thanks to our sponsors, Paco and Gary, and my talented team: Brandon, Mitchell, Ethan, and Martin! 🚀",
+      "images": [
+        "images/portfolio/general-dynamics/General-Dynamics-Logo.png",
+        "images/portfolio/general-dynamics/Home-Page.png",
+        "images/portfolio/general-dynamics/Upload-File.png"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        }
+      ]
+    },
+    {
+      "title": "Synthetic Fraud APIs",
+      "startDate": "2024",
+      "description": "At my internship in Early Warning, the fintech company that runs Zelle. I worked on the Payment Services team within the Enterprise Data Architecture Platform, using Java, Spring Boot, and Aerospike to build and enhance payment services. I collaborated closely with Data Science teams to analyze patterns using AI/ML models and improve fraud detection capabilities. 🤖\n\nI wrote and deployed JUnit and Spock automated tests to validate Synthetic Fraud Payment Services, ensuring high reliability and performance. 🧪\n\nAdditionally, I implemented and modified several payment service APIs that are called over 1 million times per month, optimizing them for scalability and efficiency. 🚀",
+      "images": ["images/portfolio/early-warning/EarlyWarning-Logo.png"],
+      "url": "https://github.com",
+      "technologies": [
+        {
+          "class": "devicon-java-plain",
+          "name": "Java"
+        },
+        {
+          "class": "devicon-spring-plain",
+          "name": "Spring"
+        }
+      ]
+    },
+    {
+      "title": "Devops Automated Rapid Testing",
+      "startDate": "2024",
+      "description": "As my first project for L3Harris Technologies, I worked on a testing software that would run tests on RF Systems by either simulating tests against their software, or plugging in the RF System directly in a lab, and running and testing real RF waves against it. This project sped up the testing time for an RF System Project by 80%, and can and is currently being integrated to many RF projects at L3Harris. No more creating a specific testing software for each individual project as DART is universal! I specifically worked on configuring the extension pipelines so that users can run the project on an exe, making it simpler for use. I used Python and Jenkins during my time developing with DART",
+      "images": ["images/portfolio/L3Harris/L3Harris-Logo.png"],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        }
+      ]
+    },
+    {
+      "title": "DiSCO",
+      "startDate": "2024",
+      "description": "As my second project for L3Harris Technologies, I worked on the Distributed System Collaboration Operations, (DiSCO) which is a collaboration system called DiSCO which is an electromagnect spectrum operation project that allows RF Sensors to interact with the cloud in real time. Specifically I worked on Data Reprogramming that will allows operators to reprogram Data that the sensor obtains, and send it to the cloud services we have and/or back to the RF Systems that collect the data that will use ML Algorithms to suggest actions based on this data. For the frontend, I used React and TypeScript. For the backend I used Python to manipulate, parse, and validate the Data.",
+      "images": ["images/portfolio/L3Harris/L3Harris-Logo.png"],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-python-plain",
+          "name": "Python"
+        },
+        {
+          "class": "devicon-react-plain",
+          "name": "React"
+        }
+      ]
+    },
+    {
+      "title": "This Website!!",
+      "startDate": "2024",
+      "description": "I put this website together with React, some TypeScript, but mainly JavaScript. Take a look around, notice the animations and the sparkles. I am open sourcing this project on my github, see the link above so feel free to take a look at my code as well.",
+      "images": ["images/portfolio/spidermanmeme.webp"],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        },
+        {
+          "class": "devicon-react-plain",
+          "name": "React"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "L3Harris Technologies",
+      "title": "Software Engineer",
+      "years": "  June 2024 - Present",
+      "mainTech": ["Python + React"],
+      "technologies": [
+        "REST API",
+        "React",
+        "TypeScript",
+        "Bootstrap",
+        "Python",
+        "C++",
+        "Jenkins",
+        "Jira",
+        "Confluence",
+        "BitBucket",
+        "Dash",
+        "Pandas"
+      ]
+    },
+    {
+      "company": "Early Warning (Zelle)",
+      "title": "Software Engineer Intern",
+      "years": "January 2024 - May 2024 ",
+      "mainTech": ["Java + Spring Boot"],
+      "technologies": [
+        "Java",
+        "Spring Boot",
+        "Aerospike",
+        "JUnit",
+        "Spock",
+        "Jira",
+        "Confluence",
+        "BitBucket"
+      ]
+    },
+    {
+      "company": "Trimble (SketchUp)",
+      "title": "Software Engineer Intern",
+      "years": "May 2023 - December 2023 ",
+      "mainTech": ["Vue.js + TypeScript"],
+      "technologies": [
+        "Vue",
+        "TypeScript",
+        "C++ for Web",
+        "DynamoDB",
+        "Lambda",
+        "Miro",
+        "Cypress",
+        "Jira",
+        "Confluence",
+        "BitBucket"
+      ]
+    }
+  ]
+}
